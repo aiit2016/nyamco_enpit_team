@@ -1,7 +1,7 @@
 # nyamco_enpit_team
 Nyamco enpit team project
 
-## エレベーターピッチ
+## エレベーターピッチ (TODO:->english)
 - エレベーターピッチ内容まとめ 　　
 
   「友達に会いたいけれど連絡を取るのが面倒臭い」を解決したい  
@@ -13,3 +13,7 @@ Nyamco enpit team project
   「青物横丁に特化」が備わっています。  
 
 - [エレベーターピッチ画像](./wireframe/20160929_images/DSC_0370.JPG)
+
+##Links
+- [Travis CI](https://travis-ci.org/aiit2016/nyamco_enpit_team)
+- [Heroku](https://murmuring-citadel-48994.herokuapp.com/)
