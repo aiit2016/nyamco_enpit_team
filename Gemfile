@@ -45,7 +45,11 @@ group :development do
   gem 'spring'
 end
 
+# Use bootstrap
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
+# For heroku
 gem 'rails_12factor', group: :production
 ruby '2.2.5'
-
 
