@@ -1,5 +1,11 @@
+[![Build Status](https://travis-ci.org/aiit2016/nyamco_enpit_team.svg?branch=master)](https://travis-ci.org/aiit2016/nyamco_enpit_team)
+
 # nyamco_enpit_team
 Nyamco enpit team project
+
+##Links
+- [Travis CI](https://travis-ci.org/aiit2016/nyamco_enpit_team)
+- [Heroku](https://murmuring-citadel-48994.herokuapp.com/)
 
 ## エレベーターピッチ (TODO:->english)
 - エレベーターピッチ内容まとめ 　　
@@ -13,7 +19,3 @@ Nyamco enpit team project
   「青物横丁に特化」が備わっています。  
 
 - [エレベーターピッチ画像](./wireframe/20160929_images/DSC_0370.JPG)
-
-##Links
-- [Travis CI](https://travis-ci.org/aiit2016/nyamco_enpit_team)
-- [Heroku](https://murmuring-citadel-48994.herokuapp.com/)
