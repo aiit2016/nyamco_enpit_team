@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @idle_time.day %>
+</p>
+
+<p>
+  <strong>Hour:</strong>
+  <%= @idle_time.hour %>
+</p>
+
+<p>
+  <strong>Person name:</strong>
+  <%= @idle_time.person_name %>
+</p>
+
+<p>
+  <strong>Idle flag:</strong>
+  <%= @idle_time.idle_flag %>
+</p>
+
+<%= link_to 'Edit', edit_idle_time_path(@idle_time) %> |
+<%= link_to 'Back', idle_times_path %>

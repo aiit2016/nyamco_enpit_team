@@ -1,0 +1,1 @@
+json.partial! "idle_times/idle_time", idle_time: @idle_time

@@ -1,0 +1,33 @@
+<%= form_for(@idle_time) do |f| %>
+  <% if @idle_time.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@idle_time.errors.count, "error") %> prohibited this idle_time from being saved:</h2>
+
+      <ul>
+      <% @idle_time.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :day %><br>
+    <%= f.text_field :day %>
+  </div>
+  <div class="field">
+    <%= f.label :hour %><br>
+    <%= f.text_field :hour %>
+  </div>
+  <div class="field">
+    <%= f.label :person_name %><br>
+    <%= f.text_field :person_name %>
+  </div>
+  <div class="field">
+    <%= f.label :idle_flag %><br>
+    <%= f.text_field :idle_flag %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
