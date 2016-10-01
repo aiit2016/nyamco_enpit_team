@@ -1,1 +1,27 @@
-<h2>Schedule Matching</h2>
+<p id="notice"><%= notice %></p>
+
+<h1>Schedule Matching</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Person Name</td>
+    <% @times.each do |time| %>
+      <th><%= time %></td>
+    <% end %>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @schedules.each do |person_schedules| %>
+      <tr>
+        <% person_schedules.each do |person_schedule| %>
+          <td><%= person_schedule %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
