@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  day: MyString
+  hour: MyString
+  person_name: MyString
+  idle_flag: MyString
+
+two:
+  day: MyString
+  hour: MyString
+  person_name: MyString
+  idle_flag: MyString

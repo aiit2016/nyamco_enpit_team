@@ -1,0 +1,1 @@
+json.array! @idle_times, partial: 'idle_times/idle_time', as: :idle_time

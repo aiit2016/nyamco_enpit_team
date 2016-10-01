@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Idle Times</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Hour</th>
+      <th>Person name</th>
+      <th>Idle flag</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @idle_times.each do |idle_time| %>
+      <tr>
+        <td><%= idle_time.day %></td>
+        <td><%= idle_time.hour %></td>
+        <td><%= idle_time.person_name %></td>
+        <td><%= idle_time.idle_flag %></td>
+        <td><%= link_to 'Show', idle_time %></td>
+        <td><%= link_to 'Edit', edit_idle_time_path(idle_time) %></td>
+        <td><%= link_to 'Destroy', idle_time, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Idle time', new_idle_time_path %>
