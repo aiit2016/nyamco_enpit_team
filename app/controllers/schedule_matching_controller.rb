@@ -8,9 +8,7 @@ class ScheduleMatchingController < ApplicationController
       if !@people.include?(idle_time.person_name) then 
         @people << idle_time.person_name
       end
-      time = idle_time.day + idle_time.hour
-      #if !@times.include?(idle_time.day.concat(idle_time.hour)) then 
-      #  @times << (idle_time.day.concat(idle_time.hour))
+      time = idle_time.day + ' ' + idle_time.hour
       if !@times.include?(time) then
         @times << time
       end
@@ -23,7 +21,7 @@ class ScheduleMatchingController < ApplicationController
       @times.each do |time|
         found = false
         @idle_times.each do |idle_time|
-          if idle_time.person_name == person && (idle_time.day + idle_time.hour) == time then
+          if idle_time.person_name == person && (idle_time.day + ' ' + idle_time.hour) == time then
             person_schedules << idle_time.idle_flag 
             found = true
             break
