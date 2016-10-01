@@ -22,10 +22,10 @@ Nyamco enpit team project
 - [エレベーターピッチ画像](./wireframe/20160929_images/DSC_0370.JPG)
 
 ##Eleveter pitch English
-"I want to see my friends, but it is a little bothering to ask firiends when they are available."　　
-This Web app is for that kind of person.　　
-You can match your schedule without asking your friends.　　
-There is no event at first.　　
-Events will be made after you and your friends signed up their schedule.　　
-This is the biggest quality which Facebook and Google Calender don't have.　　
-When you and your friends schedule is matched, you can create new event.　　
+"I want to see my friends, but it is a little bothering to ask firiends when they are available."　
+This Web app is for that kind of person.　
+You can match your schedule without asking your friends.　
+There is no event at first.　
+Events will be made after you and your friends signed up their schedule.　
+This is the biggest quality which Facebook and Google Calender don't have.　
+When you and your friends schedule is matched, you can create new event.　
