@@ -26,7 +26,7 @@ Nyamco enpit team project
  
 "I want to see my friends, but it is a little bothering to ask friends when they are available."  
 This Web app is for that kind of person.  
-You can adjust your group schedule without asking your friends.  
+The app can adjust your group schedule without asking your friends.  
 The point of app. is Event dose not come first.  
 Events will be made after schedule matching.  
 This is the biggest quality which Facebook and Google Calender don't have.  
