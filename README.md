@@ -22,7 +22,7 @@ Nyamco enpit team project
 - [エレベーターピッチ画像](./wireframe/20160929_images/DSC_0370.JPG)
 
 ##Eleveter pitch English
-"I want to see my friends, but it is a little bothering to ask firiends when they are available."  
+"I want to see my friends, but it is a little bothering to ask friends when they are available."  
 This Web app is for that kind of person.  
 You can match your schedule without asking your friends.  
 There is no event at first.  
