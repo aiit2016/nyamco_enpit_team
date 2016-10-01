@@ -28,4 +28,4 @@ You can match your schedule without asking your friends.
 There is no event at first.  
 Events will be made after you and your friends signed up their schedule.  
 This is the biggest quality which Facebook and Google Calender don't have.  
-When you and your friends schedule is matched, you can create new event.  
+When you and your friends’ schedule is matched, you can create new event.  
