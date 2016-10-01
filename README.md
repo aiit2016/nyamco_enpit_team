@@ -23,6 +23,7 @@ Nyamco enpit team project
 
 ##Elevetor pitch*
  *short summary used to quickly and simply define a process, product, service, organization, or event and its value proposition.
+ 
 "I want to see my friends, but it is a little bothering to ask friends when they are available."  
 This Web app is for that kind of person.  
 You can match your schedule without asking your friends.  
