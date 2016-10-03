@@ -1,56 +1,26 @@
-<h2>Schedule Matching</h2>
-<table style="line-height: 1.33em; border-collapse: collapse;" cellspacing="1″ cellpdding="5″>
-<body>
-<tr align="center">
-<td style="padding:5px; background-color:#edf5f9;border:1px solid #42B4ED;font-weight: bold;" width="10%"></td>
-<td style="padding:5px; background-color:#edf5f9;border:1px solid #42B4ED;font-weight: bold;" width="10%">OCT1<br>Saturday</t\
-d>
-<td style="padding:5px; background-color:#edf5f9;border:1px solid #42B4ED;font-weight: bold;" width="10%">OCT2<br>Sunday</td>
-<td style="padding:5px; background-color:#edf5f9;border:1px solid #42B4ED;font-weight: bold;" width="10%">OCT3<br>Monday</td>
-<td style="padding:5px; background-color:#edf5f9;border:1px solid #42B4ED;font-weight: bold;" width="10%">OCT4<br>Tuesday</td\
->
-<td style="padding:5px; background-color:#edf5f9;border:1px solid #42B4ED;font-weight: bold;" width="10%">OCT5<br>Wednesday</\
-td>
-<td style="padding:5px; background-color:#edf5f9;border:1px solid #42B4ED;font-weight: bold;" width="10%">OCT6<br>Thursday</t\
-d>
-<td style="padding:5px; background-color:#edf5f9;border:1px solid #42B4ED;font-weight: bold;" width="10%">OCT7<br>Friday</td>
-</tr>
-<tr>
-<td style="border: 1px solid #42B4ED;" valign="top">Yamada-san</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<tr>
-<td style="border: 1px solid #42B4ED;" valign="top">Tanaka-san</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-</tr>
-<tr>
-<td style="border: 1px solid #42B4ED;" valign="top">Satou-kun</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-<td style="border: 1px solid #42B4ED;" valign="top">○</td>
-<td style="border: 1px solid #42B4ED;" valign="top">×</td>
-</tr>
-<tr>
-<td style="border: 1px solid #42B4ED;" valign="top"></td>
-<td style="border: 1px solid #42B4ED;" valign="top"><BUTTON type=”button” onclick=”window.open(‘https://murmuring-citadel-48994.herokuapp.com/event_creating’)>CREATE EVENT</button></td>
-<td style="border: 1px solid #42B4ED;" valign="top"></td>
-<td style="border: 1px solid #42B4ED;" valign="top"><BUTTON type=”button” onclick=”window.open(‘https://murmuring-citadel-48994.herokuapp.com/event_creating’) >CREATE EVENT</button></td>
-<td style="border: 1px solid #42B4ED;" valign="top"></td>
-<td style="border: 1px solid #42B4ED;" valign="top"></td>
-<td style="border: 1px solid #42B4ED;" valign="top"><button type=”button” onclick=”window.open(‘https://murmuring-citadel-48994.herokuapp.com/event_creating’) >CREATE EVENT</button></td>
-<td style="border: 1px solid #42B4ED;" valign="top"></td>
-</tr>
+<p id="notice"><%= notice %></p>
+
+<h1>Schedule Matching</h1>
+
+<table border='1'>
+  <thead>
+    <tr>
+      <th>Person Name</td>
+    <% @times.each do |time| %>
+      <th><%= time %></td>
+    <% end %>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @schedules.each do |person_schedules| %>
+      <tr>
+        <% person_schedules.each do |person_schedule| %>
+          <td align='center'><%= person_schedule %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+

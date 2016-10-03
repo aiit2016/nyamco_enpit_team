@@ -8,6 +8,10 @@ Nyamco enpit team project
 - [Travis CI](https://travis-ci.org/aiit2016/nyamco_enpit_team)
 - [Heroku](https://murmuring-citadel-48994.herokuapp.com/)
 
+##Functions
+- [Idle Time Management](https://murmuring-citadel-48994.herokuapp.com/idle_times)
+- [Schedule Matching](https://murmuring-citadel-48994.herokuapp.com/schedule_matching)
+
 ## エレベーターピッチ (TODO:->english)
 - エレベーターピッチ内容まとめ 　　
 
