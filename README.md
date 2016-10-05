@@ -12,19 +12,6 @@ Nyamco enpit team project
 - [Idle Time Management](https://murmuring-citadel-48994.herokuapp.com/idle_times)
 - [Schedule Matching](https://murmuring-citadel-48994.herokuapp.com/schedule_matching)
 
-## エレベーターピッチ (TODO:->english)
-- エレベーターピッチ内容まとめ 　　
-
-  「友達に会いたいけれど連絡を取った時に断られるのがストレスを感じる」を解決したい  
-  「万人」向けの  
-  「傷つく事なくスケジュール調整（マッチング）」を実現する  
-  「Web app.」です。  
-  これは「スジュールマッチング」ができ、  
-  「フェイスブック、スケジューラー」とは違って、  
-  「イベントの日時に合わせて参加者を募るのではなく、メンバーの予定の会う日時に合わせてイベントを設定する」が備わっています。  
-
-- [エレベーターピッチ画像](./wireframe/20160929_images/DSC_0370.JPG)
-
 ##Elevetor pitch*
  *short summary used to quickly and simply define a process, product, service, organization, or event and its value proposition.
  
@@ -35,3 +22,15 @@ The point of app. is Event dose not come first.
 Events will be made after schedule matching.  
 This is the biggest quality which Facebook and Google Calender don't have.  
 When you and your friends’ schedule is matched, you can create new event.  
+
+##Elevetor pitch in japanese
+エレベーターピッチ 　　
+
+「友達に会いたいけれど連絡を取った時に断られるのがストレスを感じる」を解決したい  
+「万人」向けの   
+「傷つく事なくスケジュール調整（マッチング）」を実現する  
+「Web app.」です。  
+これは「スジュールマッチング」ができ、  
+「フェイスブック、スケジューラー」とは違って、  
+「イベントの日時に合わせて参加者を募るのではなく、メンバーの予定の会う日時に合わせてイベントを設定する」が備わっています。  
+
