@@ -4,14 +4,7 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure: lgFrXenZKEklny0acXk3GiuNp7EsWY4bk7lDZLj+0+AIhpldr7gJUFf7oal+OVLdm6wbmcW/wKkdogi9hDNZarZ2AGcUafoPxh6PFbrbayb6ER9gsVmr2nji4WTtRnpPoMETQTSwV0BsFolgt/VJfG/RSaesxoIsxtDl1mOQQoU3l9N4ecl4gg+mp4/ZQF45HrWT6symAUVPN8VOEsymtCy8UlNCLFrQFXlUkCgNK0zLzI6zVvNJn3Uqyxkwny5EofJfpn+CBYymqwjNgF0czxMJBdfyxPWVuy85rGGUjzmw9YD6S7xFQS1xESB3tHtL1NcGohLsXF4o729ZNyygszmvHuiDX6PhJyJ2ZrSLfHSE5X7IAwmFZO6xlKdf3Do4Ulh+PTHRzOW7hLajcFnu6ubj2qlOONBd4aNRu1kNhEXviNjHWKgfhZg6FVrvF+YwfcC8P8HvmP44pfITEPglB0gPj7/wS1Lk/f1G8jkg+4HEzPWqNGZoZ3zhhkkwwZVLqrKqqirhYqjiOm/GFi529+XcZE/72UKhiBt3tU2ra1kZV1BxkVJ838GU98TN+ygFlJsvdj51OdryeB4BemSdbOEFf+kYs07rDrH/2LJTRS8+AM7ommIRd+A5p7j+M9ao7CVMW3Rl7B0YpRg1yAEIgl6MITKTFByMUy4G07EVneU=
-  app: murmuring-citadel-48994
+    secure: kxH5B0VZ07deInc0rc2dLT0Hx+fphyQtybSTclMMX3JPu1KStsA5hljGaFVOUvo5Yp6/8qYu29zSBR1JQ671/ExOOOKqZpkuaU2l0UBombQvwfSOKkSmZ8Co/e7xlM58pCEoyg2JC42Q5eXhKByBCQm7qCZbb+ncyM7GTtmbyRR1ZLTfM4MjomWgoq+G+Oco5HDldkMPXo8MKYh5WxQR+8NjBPwiDJc3Flgvi+o/Q/eFhYEpY3oH5Wlvj8g5Gm0QKgWzEdYk5lwcrh0S0FUz+qBhaU902yOejP0+rBmdnPOEUV5CRwRPq1dASre++FORsDPUyRU5znHyFTfKlue+QUY8kp5x0nU7YV6H3WC6ycsFd0sn1ypC3UuUa9+LACiEA4dGfNXD+Xar9ORKypfEU4MhsUtZpdRBnqoR4p/npNHNM9JcR7MTb3Ge4SPxlBgnJZFDAYZYvV7uAJXq3sO8j1zUyBlaRosj3dLNtAWgMFLoJ5A0l821nR0A4EtKpnSVnnFT8yM+YFlAdgHEVfGZHeySfHrEJwqyaKnI7JJSjIqlRlXk+kalrR0krAHeHaE1+IW2dtQvc9AO0N30dUe79kVUFnB7aBOKEfQOqX8yHX4sBvhQ9GYJn/a/nRX0q4aAB2TnFchzmJJkeeLADE9WyfcKkU4UJct+A0UPG8t2+NU=
+  app: nyamco_enpit_team
   on:
     repo: aiit2016/nyamco_enpit_team
-addons:
-  postgresql: "9.3"
-before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
-  - cp config/database.yml.travis config/database.yml
-  - bin/rake db:migrate RAILS_ENV=test
-
