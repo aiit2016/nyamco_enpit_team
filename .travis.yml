@@ -7,7 +7,7 @@ deploy:
     secure: kxH5B0VZ07deInc0rc2dLT0Hx+fphyQtybSTclMMX3JPu1KStsA5hljGaFVOUvo5Yp6/8qYu29zSBR1JQ671/ExOOOKqZpkuaU2l0UBombQvwfSOKkSmZ8Co/e7xlM58pCEoyg2JC42Q5eXhKByBCQm7qCZbb+ncyM7GTtmbyRR1ZLTfM4MjomWgoq+G+Oco5HDldkMPXo8MKYh5WxQR+8NjBPwiDJc3Flgvi+o/Q/eFhYEpY3oH5Wlvj8g5Gm0QKgWzEdYk5lwcrh0S0FUz+qBhaU902yOejP0+rBmdnPOEUV5CRwRPq1dASre++FORsDPUyRU5znHyFTfKlue+QUY8kp5x0nU7YV6H3WC6ycsFd0sn1ypC3UuUa9+LACiEA4dGfNXD+Xar9ORKypfEU4MhsUtZpdRBnqoR4p/npNHNM9JcR7MTb3Ge4SPxlBgnJZFDAYZYvV7uAJXq3sO8j1zUyBlaRosj3dLNtAWgMFLoJ5A0l821nR0A4EtKpnSVnnFT8yM+YFlAdgHEVfGZHeySfHrEJwqyaKnI7JJSjIqlRlXk+kalrR0krAHeHaE1+IW2dtQvc9AO0N30dUe79kVUFnB7aBOKEfQOqX8yHX4sBvhQ9GYJn/a/nRX0q4aAB2TnFchzmJJkeeLADE9WyfcKkU4UJct+A0UPG8t2+NU=
   app: nyamco_enpit_team
   on:
-    repo: aiit2016/nyamco_enpit_team
+    repo: hiroak/nyamco_enpit_team
 
 addons:
 
