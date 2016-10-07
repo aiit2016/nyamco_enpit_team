@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
+  get 'login' => 'login#index'
+  get 'register' => 'register#index'
   get 'schedule_matching' => 'schedule_matching#index'
   get 'event_creating' => 'event_creating#index'
 
