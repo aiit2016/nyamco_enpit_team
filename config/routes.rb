@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'ohashi/index'
+
   resources :users
   resources :idle_times
   # The priority is based upon order of creation: first created -> highest priority.
