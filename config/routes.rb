@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'self_introduction/ninomiya'
+
   resources :users
   resources :idle_times
   # The priority is based upon order of creation: first created -> highest priority.
