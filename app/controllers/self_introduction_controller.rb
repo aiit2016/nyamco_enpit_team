@@ -1,4 +1,4 @@
 class SelfIntroductionController < ApplicationController
-  def ninomiya
+  def ohashi
   end
 end

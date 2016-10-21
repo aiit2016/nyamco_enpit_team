@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'self_introduction/ohashi'
+
   get 'self_introduction/ninomiya'
 
   resources :users
