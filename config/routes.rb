@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :maps
   get 'self_introduction/ohashi'
 
   get 'self_introduction/ninomiya'
