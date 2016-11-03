@@ -46,10 +46,16 @@ group :development do
 end
 
 # Use bootstrap
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'autoprefixer-rails'
+gem "font-awesome-rails"
+
+# For static pages
+gem 'high_voltage', '~> 3.0.0'
 
 # For heroku
 gem 'rails_12factor', group: :production
 ruby '2.2.5'
+
+gem 'autodoc'
 

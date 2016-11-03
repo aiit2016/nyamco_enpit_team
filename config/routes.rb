@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'self_introduction/ohashi'
+
+  get 'self_introduction/ninomiya'
+
+  resources :users
   resources :idle_times
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -8,6 +13,8 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
+  get 'login' => 'login#index'
+  get 'register' => 'register#index'
   get 'schedule_matching' => 'schedule_matching#index'
   get 'event_creating' => 'event_creating#index'
 

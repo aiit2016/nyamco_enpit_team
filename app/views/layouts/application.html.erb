@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NyamcoEnpitTeam</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/favicon.ico">
+
+  <title>Schetch | <%= yield(:title) %></title>
+  <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+  <div class="container">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top bg-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Schetch</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/schedule_matching">Create a Schetch</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown">Links(dummy)<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="users">User Management</a></li>
+                <li><a href="idle_times">Idle Time Management</a></li>
+              </ul>
+            </li>
+            <li><a href="/login">Log in</a></li>
+            <li><a href="/register">Sign up</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+
+    <div class="container">
+      <!-- Content -->
+      <%= yield %>
+    </div> <!-- /container -->
+
+    <p>&nbsp;</p>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="container">
+        <p class="text-muted">Aiit enpit 2016 Nyamco team. &middot; <%= link_to 'About', page_path('about'), target: '_blank' %> &middot; <a href="#">Contact</a> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </div>
+    </div>
 
 </body>
 </html>
