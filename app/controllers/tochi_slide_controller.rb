@@ -1,0 +1,2 @@
+class TochiSlideController < ApplicationController
+end
