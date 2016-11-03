@@ -26,6 +26,10 @@ Nyamco enpit team project
 This Web app is for that kind of person.  
 You can match your schedule without asking your friends.  
 There is no event at first.  
+<<<<<<< HEAD
 Events will be made after you and your friends signed up their schedule.  
+=======
+Events will be made after you and your friends signed up and adjust their schedule.  
+>>>>>>> 16e5f893b301f4b9757b6b869ca85079d5be95a4
 This is the biggest quality which Facebook and Google Calender don't have.  
 When you and your friends’ schedule is matched, you can create new event.  
