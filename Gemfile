@@ -57,5 +57,5 @@ gem 'high_voltage', '~> 3.0.0'
 gem 'rails_12factor', group: :production
 ruby '2.2.5'
 
-gem 'autodoc'
 
+gem 'autodoc', group: :test
